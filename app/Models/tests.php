@@ -8,4 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 class tests extends Model
 {
     use HasFactory;
+
+    protected $fillable = [
+        'test_name',
+        'class',
+        'total',
+        'average'
+    ];
 }
