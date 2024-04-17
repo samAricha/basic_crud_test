@@ -1,6 +1,6 @@
 
 # Tests CRUD Application
-This is a simple Task management Laravel Application tracking date, task, priority and status. 
+This is a simple Test CRUD Laravel Application for UNES Junior Developer Test. 
 
 ## 🛠️ Prerequisites 🛠️
 #### IDE
@@ -19,7 +19,7 @@ Any IDE of your choice
 
 
 ## Screenshots
-<img src="art/gemini_chat_sdk.jpeg"  width="250"/>  
+ 
 
 
 ## Built with
