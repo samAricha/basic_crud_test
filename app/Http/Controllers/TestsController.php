@@ -8,7 +8,7 @@ class TestsController extends Controller
 {
     public function index()
     {
-      $tests = Test::all();
+      $tests = Test::all()->orderBy('id', desc);
       return json_encode($tests);
     }
 
@@ -39,7 +39,7 @@ class TestsController extends Controller
 
     public function destroy($id)
     {
-      $test = Test::find($id);
+      $test = Test::find($id)->orderBy('id', desc);
       $test->delete();
       return json_encode($test);
     }
@@ -53,7 +53,7 @@ class TestsController extends Controller
 
     public function edit($id)
     {
-      $test = Test::find($id);
+      $test = Test::find($id)->orderBy('id', desc);
       return json_encode($test);
     }
 }
