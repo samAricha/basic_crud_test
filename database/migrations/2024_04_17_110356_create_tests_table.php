@@ -17,8 +17,8 @@ return new class extends Migration
             $table->id();
             $table->string('test_name');
             $table->string('class');
-            $table->string('total');
-            $table->string('average');
+            $table->int('total');
+            $table->int('average');
             $table->timestamps();
         });
     }
